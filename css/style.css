@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+.navbar1 .navbar-nav  .nav-link:hover{
+    color: rgb(147, 210, 244);
+}
+.navbar1 .navbar-nav  .dropdown-item:hover{
+    color:rgb(147, 210, 244) ;
+}
+.navbar .navbar-nav #active{
+    color: rgb(147, 210, 244);
+}
+.navbar-brand{
+    border: none;
+    padding: 3px;
+}
+.h1 {
+    font-family: Montserrat-bold;
+    text-align: center;
+}
+.g {
+    color: black;
+}
+.h:hover {
+    color: rgb(147, 210, 244);
+}
+.o {
+    background-color: white;
+}
+.p:hover {
+    background-color: rgb(198, 229, 246);
+}
+
+.card-scale {
+  transition: transform 0.3s ease;
+}
+
+.card-scale:hover {
+  transform: scale(1.05);
+}
